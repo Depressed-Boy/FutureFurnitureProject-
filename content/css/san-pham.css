@@ -1,0 +1,123 @@
+/* Left */
+a {
+  text-decoration: none;
+}
+ul li {
+  list-style: none;
+}
+li a:hover {
+  transition: 0.3s;
+}
+.content {
+  justify-content: space-between;
+  display: flex;
+  max-width: 1420px;
+  margin: 0 auto;
+}
+.Left {
+  width: 350px;
+  height: fit-content;
+  padding-bottom: 20px;
+  float: left;
+  background-color: #f3f3f3;
+}
+.Left p {
+  padding: 4px;
+  color: black;
+  border-radius: 0px 25px 25px 0px;
+  width: 90%;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}
+.filter strong {
+  color: #333;
+  font-size: large;
+  font-weight: 100;
+}
+.head-filter strong {
+  font-size: large;
+  font-weight: bold;
+}
+.content_locsp {
+  margin-left: 10px;
+}
+
+/* Left */
+
+/* San Pham CSS */
+.Right {
+  width: 100%;
+}
+.head-right h3 {
+  font-size: 30px;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 15px;
+  margin-bottom: 25px;
+}
+.right-content-sanpham {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+.sanpham-one {
+  width: 220px;
+  margin: 20px;
+  transition: box-shadow 0.3s ease, transform 0.3s ease;
+}
+.sanpham-one img {
+  width: 220px;
+}
+.sanpham-one h1 {
+  font-size: 15px;
+  color: #333;
+  margin-top: 6px;
+}
+.sanpham-one .cost-sanpham {
+  font-size: 15px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.pri-sanpham {
+  float: left;
+  margin-left: 5px;
+}
+
+.sanpham-one:hover {
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); /* Shadow-box tinh chỉnh */
+  transform: scale(1.1);
+}
+.pri-sanpham {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Phan Trang */
+.sanpham {
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  margin-bottom: 15px;
+}
+.pagination a {
+  color: black;
+  padding: 8px 16px;
+  text-decoration: none;
+  transition: background-color 0.3s;
+  border: 1px solid #ddd;
+  margin: 0 4px;
+}
+.pagination a.active {
+  background-color: gold;
+  color: black;
+  border: 1px solid black;
+}
+.pagination a:hover:not(.active) {
+  background-color: #aca9a9f5;
+}
+/* Phan Trang */
